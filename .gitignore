@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.bak
+
+# Temp
+temp/
+*.db
+app.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+
+# Exclude from git (local only)
+PROJECT_STRUCTURE.md
+deploy.sh
+systemd.service.example
